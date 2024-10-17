@@ -1,0 +1,23 @@
+.todo-list {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item {
+  font-size: 18px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
