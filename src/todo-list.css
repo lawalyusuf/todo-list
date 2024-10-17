@@ -2,15 +2,19 @@
   width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #eed4d4;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo {
+text-align: center;
 }
 
 .todo-item {
   font-size: 18px;
   padding: 10px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #9b0d0d;
 }
 
 .todo-item.completed {
